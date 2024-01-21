@@ -47,6 +47,7 @@
     color: white;
     font-size: 22px;
     font-weight: 200;
+    cursor: pointer;
 }
 
 .hero-right{
@@ -135,6 +136,8 @@
 @media(max-width:500px){
     .hero{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .hero-right{
         display: none;
